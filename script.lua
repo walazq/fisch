@@ -48,7 +48,7 @@ end)
 
 -- When the Check Key button is clicked, perform validation
 checkKeyButton.MouseButton1Click:Connect(function()
-    if keyInput.Text == "FISCHY" then
+    if keyInput.Text == "FISHKEY" then
         print("Key is correct, script is being executed and screen will close in 5 seconds...")
 
         -- Execute the script using loadstring
